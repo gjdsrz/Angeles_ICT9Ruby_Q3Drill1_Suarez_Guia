@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAM SORRY</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100wh;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color:aquamarine;
+
+            position: absolute;
+           
+            
+    </style>
+    </head>
+
+<body>
+
+    <h1>Basic Calculator Display</h1>
+
+    
+    <div id="output1"></div>
+    <div id="output2"></div>
+    <div id="output3"></div>
+    <div id="output4"></div>
+
+    <script>
+        let a1 = 10;
+        let b1 = 20;
+        let sum1 = a1 + b1;
+        document.getElementById("output1").innerHTML = 
+            "<h3>Addition</h3>" +
+            "<p>a = " + a1 + "</p>" +
+            "<p>b = " + b1 + "</p>" +
+            "<p>Result (a + b) = " + sum1 + "</p>"; 
+    </script>
+
+
+<br>
+<br>
+
+    <script>
+        let a2 = 12;
+        let b2 = 13;
+        let diff1 = a2 - b2;
+        document.getElementById("output2").innerHTML = 
+            "<h3>Subtraction</h3>" +
+            "<p>a = " + a2 + "</p>" +
+            "<p>b = " + b2 + "</p>" +
+            "<p>Result (a - b) = " + diff1 + "</p>";
+    </script>
+
+<br>
+
+
+
+    <script>
+        let a3 = 23;
+        let b3 = 3;
+        let product1 = a3 * b3;
+        document.getElementById("output3").innerHTML = 
+            "<h3>Multiplication</h3>" +
+            "<p>a = " + a3 + "</p>" +
+            "<p>b = " + b3 + "</p>" +
+            "<p>Result (a * b) = " + product1 + "</p>";
+    </script>
+
+<br>
+
+
+    <script>
+        let a4 = 14;
+        let b4 = 17;
+        let quot1 = a4 / b4;
+        document.getElementById("output4").innerHTML = 
+            "<h3>Division</h3>" +
+            "<p>a = " + a4 + "</p>" +
+            "<p>b = " + b4 + "</p>" +
+            "<p>Result (a / b) = " + quot1.toFixed(2) + "</p>"; // Added toFixed for cleaner display
+    </script>
+
+</body>
+</html>
+
+
+
+
+
